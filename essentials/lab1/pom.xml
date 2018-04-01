@@ -15,7 +15,10 @@
   </parent>
 
   <dependencies>
-    <!-- Add the Hazelcast dependency -->
-
+    <dependency>
+      <groupId>com.hazelcast</groupId>
+      <artifactId>hazelcast</artifactId>
+      <version>3.9.3</version>
+    </dependency>
   </dependencies>
 </project>
